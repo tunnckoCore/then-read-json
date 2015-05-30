@@ -18,5 +18,20 @@
     "assertit": "^0.1.0",
     "bluebird": "^2.9.27"
   },
-  "keywords": []
+  "keywords": [
+    "aplus",
+    "bluebird",
+    "file",
+    "json",
+    "json-file",
+    "native",
+    "parse",
+    "promise",
+    "promises",
+    "read",
+    "read-file",
+    "read-json",
+    "readfile",
+    "then"
+  ]
 }
