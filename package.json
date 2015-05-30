@@ -1,0 +1,22 @@
+{
+  "name": "then-read-json",
+  "version": "0.0.0",
+  "description": "Read JSON file using promises",
+  "repository": "tunnckoCore/then-read-json",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "graceful-fs": "~3.0.7",
+    "native-or-bluebird": "~1.2.0",
+    "then-parse-json": "~1.0.2"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "bluebird": "^2.9.27"
+  },
+  "keywords": []
+}
