@@ -1,6 +1,6 @@
 {
   "name": "then-read-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read JSON file using promises",
   "repository": "tunnckoCore/then-read-json",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
