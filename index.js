@@ -7,23 +7,13 @@
 
 'use strict'
 
-var gfs = require('graceful-fs')
+var fs = require('mz/fs')
 var parseJson = require('then-parse-json')
-var Bluebird = require('native-or-bluebird')
 
 module.exports = function thenReadJson (fp) {
   if (typeof fp !== 'string') {
     throw new TypeError('then-read-json expect `fp` be string')
   }
 
-  var promise = new Bluebird(function (resolve, reject) {
-    gfs.readFile(fp, 'utf8', function (err, res) {
-      if (err) {
-        return reject(err)
-      }
-      resolve(res)
-    })
-  })
-
-  return promise.then(parseJson)
+  return fs.readFile(fp, 'utf8').then(parseJson)
 }
