@@ -31,6 +31,8 @@ thenReadJson('./package.json')
 - [make-callback](https://github.com/tunnckoCore/make-callback): Make synchronous function to support callback api
 - [then-parse-json](https://github.com/tunnckoCore/then-parse-json): Gracefully parse JSON using promises - promisified JSON.parse
 - [then-stringify-json](https://github.com/tunnckoCore/then-stringify-json): Gracefully stringify JSON using promises - promisified JSON.stringify
+- [then-write-json](https://github.com/tunnckocore/then-write-json): Write contents to JSON file using JSON.stringify and promises… [more](https://github.com/tunnckocore/then-write-json)
+- [then-write-file](https://github.com/tunnckocore/then-write-file): Write file to disk, using promises and creating recursively… [more](https://github.com/tunnckocore/then-write-file)
 - [try-read-json](https://github.com/tunnckoCore/try-read-json): Fast, meaningful and correct try/catch flow for reading JSON with JSON.parse - support optional callback
 
 
