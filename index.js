@@ -8,12 +8,11 @@
 'use strict'
 
 var fs = require('mz/fs')
-var parseJson = require('then-parse-json')
 
 module.exports = function thenReadJson (fp) {
   if (typeof fp !== 'string') {
     throw new TypeError('then-read-json expect `fp` be string')
   }
 
-  return fs.readFile(fp, 'utf8').then(parseJson)
+  return fs.readFile(fp, 'utf8').then(JSON.parse)
 }
