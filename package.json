@@ -10,12 +10,12 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "graceful-fs": "^3.0.7",
+    "graceful-fs": "^4.1.4",
     "mz": "^2.0.0"
   },
   "devDependencies": {
     "assertit": "^0.1.0",
-    "bluebird": "^2.9.27"
+    "bluebird": "^3.4.1"
   },
   "keywords": [
     "aplus",
